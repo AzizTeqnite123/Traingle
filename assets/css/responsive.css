@@ -1,0 +1,937 @@
+@media only screen and (max-width : 1300px) {
+    .page-width {
+        max-width: 100%;
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (max-width : 1200px) {
+    .page-width {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    /* Home Page Css */
+
+    .heading-h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .Banner_content>p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .Banner_content .main_btn {
+        margin-top: 40px;
+    }
+
+    .Bnner_points ul li .B__icon_contnt::before {
+        height: 30px;
+        width: 40px;
+    }
+
+    .Bannner__row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* Home Page Css */
+
+}
+
+@media only screen and (max-width : 1024px) {
+    /* Home Page Css */
+
+    .header__inline-menu .list-menu--inline {
+        display: none;
+    }
+
+    .Best_seller_sec:has(.swiper-slide:nth-child(4)) .produc-sld-arrow {
+        display: block !important;
+    }
+
+    .heading-h1 {
+        font-size: 37px;
+        line-height: 42px;
+    }
+
+    .Banner_content>p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .Banner_content .main_btn {
+        margin-top: 30px;
+    }
+
+    .Bnner_points ul li .B__icon_contnt {
+        gap: 10px;
+    }
+
+    .Bnner_points ul li .B__icon_contnt::before {
+        height: 25px;
+        width: 35px;
+        background-size: 20px;
+    }
+
+    .Best_seller_sec {
+        padding: 80px 20px;
+    }
+
+    .product-slider {
+        margin-top: 50px;
+    }
+
+    .price__sale .price-item--sale {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    .product-card-wrapper .card__media {
+        height: 290px;
+    }
+
+    .heading-h2 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+
+    .heading-h2-inner {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .Sided_Image {
+        height: 500px;
+    }
+
+    .Sided_content .sided_inner_dis p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .Sided_content .main_btn {
+        margin-top: 30px;
+    }
+
+    .Explor__sec,
+    .Sided_sec {
+        padding: 80px 0;
+    }
+
+    .collections_row .CollectioN_Box:nth-of-type(1) .colle-Img {
+        max-width: 260px;
+    }
+
+    .collections_row {
+        margin-top: 50px;
+    }
+
+    .collections_row .CollectioN_Box:nth-of-type(1) {
+        grid-column: span 2;
+        grid-template-columns: 35% 1fr;
+    }
+
+    .collections_row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .colle-Img {
+        max-width: 130px;
+    }
+
+    .collet-content h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .collections_row .CollectioN_Box {
+        gap: 20px;
+    }
+
+    .Optizm_Sec {
+        padding: 80px 0;
+    }
+
+    .Opti_row {
+        margin-top: 50px;
+    }
+
+    .Optiz_content .step_area span {
+        font-size: 20px;
+    }
+
+    .Optimz_foot {
+        margin-top: 50px;
+    }
+
+    .stories_sec {
+        position: relative;
+        padding: 220px 0 80px;
+        margin-top: -9.4rem;
+    }
+
+    .Featur_baner_bg {
+        padding-left: 40px;
+    }
+
+    .Stories_row {
+        margin-top: 50px;
+    }
+
+    .Review_box .post_icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .Review_box .review_starts ul li img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .Real_result {
+        padding: 80px 0;
+    }
+
+    .Foot_row {
+        gap: 20px;
+    }
+
+    .Foot_Newsletter {
+        max-width: 300px;
+    }
+
+    .foot_Copy .copy_text span {
+        line-height: 20px;
+    }
+
+    .Best_seller_sec .main_btn {
+        margin-top: 50px;
+    }
+
+    .Explor__sec .page-width>.main_btn {
+        margin-top: 50px;
+    }
+
+    /* Home Page Css */
+
+    /* CBD PAGE CSS */
+
+    .cont-with-bg-row {
+        padding: 50px;
+        gap: 15px;
+    }
+
+    .cont-with-bg-row .main_btn {
+        margin-top: 15px;
+    }
+
+    .cont-with-bg-row p {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 90%;
+    }
+
+    .NoteSec {
+        padding: 60px 0;
+    }
+
+    .note-sec-row p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .template-cbd .Sided_content .sided_inner_dis ul {
+        gap: 15px;
+    }
+
+    /* CBD PAGE CSS */
+
+}
+
+@media only screen and (max-width : 768px) {
+
+
+    /* Home Page Css */
+
+    .main_btn a {
+        font-size: 14px;
+        padding: 14px 20px;
+        line-height: 14px;
+    }
+
+    .header__icons {
+        gap: 15px;
+    }
+
+    .header__heading .header__heading-logo-wrapper {
+        max-width: 140px;
+    }
+
+    .Bannner__row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Banner_content {
+        margin-left: unset;
+        padding-right: 20px;
+        max-width: 500px;
+    }
+
+    .Img_inner-ban img {
+        height: 400px;
+    }
+
+    .Banner_content {
+        padding-bottom: 0px;
+    }
+
+    .Banner_content .main_btn a {
+        padding: 12px 20px;
+    }
+
+    .Banner_Images {
+        margin-top: -100px;
+    }
+
+    .Best_seller_sec {
+        padding: 60px 20px;
+    }
+
+    .heading-h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .product-slider {
+        margin-top: 40px;
+    }
+
+    .Best_seller_sec .main_btn {
+        margin-top: 40px;
+    }
+
+    .price__sale .price-item--sale {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .Explor__sec,
+    .Sided_sec {
+        padding: 60px 0;
+    }
+
+    .sided_row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Sided_Image {
+        height: 400px;
+    }
+
+    .heading-h2-inner {
+        font-size: 27px;
+        line-height: 35px;
+    }
+
+    .image-right .Sided_Image {
+        order: 1;
+    }
+
+    .image-right .Sided_content {
+        order: 1;
+    }
+
+    .Sided_content .sided_inner_dis ul li {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .collections_row .CollectioN_Box {
+        grid-column: span 2;
+        grid-template-columns: 30% 1fr !important;
+    }
+
+    .collections_row .CollectioN_Box:nth-of-type(1) .colle-Img {
+        max-width: 210px;
+    }
+
+    .collet-content h3 {
+        max-width: 300px;
+    }
+
+    .collections_row .CollectioN_Box .colle-Img {
+        max-width: 180px !important;
+    }
+
+    .Optizm_Sec {
+        padding: 60px 0;
+    }
+
+    .Opti_row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Optiz_content .step_area {
+        padding: 8px 20px;
+        border-width: 3px;
+    }
+
+    .Optiz_content .step_area span {
+        font-size: 16px;
+    }
+
+    .Optiz_content>p {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 100%;
+    }
+
+    .Optiz_content {
+        padding: 0 20px 20px;
+    }
+
+    .Optimz_foot>p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .Feature_row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Feature_Image {
+        margin-right: auto;
+    }
+
+    .Feature_Image img {
+        height: 250px;
+    }
+
+    .Featur_contnt p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .Featur_contnt .main_btn {
+        margin-top: 30px;
+    }
+
+    .Featur_baner_bg {
+        padding-right: 40px;
+    }
+
+    .Stories_row {
+        margin-top: 40px;
+    }
+
+    .users_inf_wpr .Info_cont span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .Review_box .review_starts ul li img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .Review_box .Post_content span {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .Review_box .post_icon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .stories_sec {
+        padding: 200px 0 60px;
+    }
+
+    .Real_result {
+        padding: 60px 0px;
+    }
+
+    .Real_headings h2 {
+        margin: 0 auto 20px;
+        max-width: 100%;
+    }
+
+    .Foot_row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .foot_Copy {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .Foot_Newsletter {
+        grid-column: span 2;
+    }
+
+    .Pyment_options select {
+        height: 45px;
+        padding: 10px;
+        padding-right: 40px;
+        background-position: calc(100% - 10px);
+    }
+
+    .foot_Copy .pyem_area {
+        margin: auto;
+    }
+
+    .copy_text {
+        display: block;
+        margin: auto;
+    }
+
+    .Real_headings .main_btn {
+        margin-top: 30px;
+    }
+
+    .heading-h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .Explor__sec .page-width>.main_btn {
+        margin-top: 40px;
+    }
+
+    .Opti_row {
+        margin-top: 40px;
+    }
+
+    .Sided_sec.Small-Img .Sided_Image {
+        height: 400px;
+    }
+
+    .learnBtn {
+        gap: 20px;
+    }
+
+    .template-cbd .Sided_sec.Small-Img .Sided_Image {
+        height: 400px;
+    }
+
+    .NoteSec {
+        padding: 50px 0;
+    }
+
+    /* Home Page Css */
+}
+
+@media only screen and (max-width : 575px) {
+    .page-width {
+        padding: 0 15px;
+    }
+
+    .header__icons .main_btn {
+        display: none;
+    }
+
+    .Banner_content {
+        padding-right: 15px;
+        padding-top: 60px;
+    }
+
+    .heading-h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .Banner_content h1 {
+        margin-bottom: 10px;
+    }
+
+    .Banner_content>p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .main_btn a {
+        padding: 12px 15px;
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    .Banner_content .main_btn a {
+        padding: 12px 15px;
+    }
+
+    .Bnner_points ul li .B__icon_contnt::before {
+        height: 20px;
+        width: 20px;
+        background-size: 15px;
+    }
+
+    .Bnner_points ul li .B__icon_contnt span {
+        max-width: 100%;
+    }
+
+    .Img_inner-ban img {
+        height: 300px;
+    }
+
+    .Banner_Images {
+        margin-top: 0px;
+    }
+
+    .header {
+        gap: 10px;
+    }
+
+    .header__heading .header__heading-logo-wrapper {
+        max-width: 119px;
+    }
+
+    .Best_seller_sec {
+        padding: 40px 15px;
+    }
+
+    .product-slider {
+        margin-top: 30px;
+    }
+
+    .Best_seller_sec .page-width {
+        padding: 0 30px;
+    }
+
+    .produc-sld-arrow:has(.product-next) {
+
+        .product-next,
+        .product-prev {
+            height: 30px;
+            width: 30px;
+        }
+    }
+
+    .produc-sld-arrow:has(.product-next) {
+
+        .product-next:after,
+        .product-prev:after {
+            font-size: 13px !important;
+        }
+    }
+
+    .product-card-wrapper .card__media {
+        height: 240px;
+    }
+
+    .product-card-wrapper .card__media img {
+        height: 150px;
+    }
+
+    .card__content h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .price__sale .price-item--sale {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .price__sale>span>.price-item {
+        font-size: 12px;
+    }
+
+    .Best_seller_sec .main_btn {
+        margin-top: 30px;
+    }
+
+    .Explor__sec,
+    .Sided_sec {
+        padding: 40px 0;
+    }
+
+    .Sided_Image {
+        height: 300px;
+        border-radius: 10px;
+    }
+
+    .heading-h2,
+    .heading-h2-inner {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .Sided_content .sided_inner_dis p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .Sided_content .main_btn {
+        margin-top: 25px;
+    }
+
+    .sided_row {
+        gap: 20px;
+    }
+
+    .Sided_content .sided_inner_dis ul li {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .collections_row .CollectioN_Box .colle-Img {
+        max-width: 125px !important;
+    }
+
+    .collet-content h3 {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 20px !important;
+    }
+
+    .Explor__sec .page-width>.main_btn {
+        margin-top: 30px;
+    }
+
+    .collections_row .CollectioN_Box .collet-content {
+        padding-bottom: 20px !important;
+        padding-right: 15px;
+    }
+
+    .Opti_row {
+        margin-top: 30px;
+    }
+
+    .Opti_row {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .Optiz_content .step_area {
+        padding: 5px 15px;
+        border-width: 2px;
+    }
+
+    .Optiz_content .step_area span {
+        font-size: 14px;
+    }
+
+    .Optiz_content {
+        padding: 0 15px 15px;
+    }
+
+    .coptiz_Cards {
+        border-radius: 10px;
+    }
+
+    .Optizm_Sec {
+        padding: 40px 0;
+    }
+
+    .Optimz_foot>p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .Sided_sec.Small-Img .Sided_Image {
+        height: 300px;
+    }
+
+    .Featur_baner_bg {
+        padding: 20px;
+        padding-bottom: 0;
+        border-radius: 10px;
+    }
+
+    .Featur_contnt {
+        padding: 20px 0;
+    }
+
+    .Featur_contnt p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .Featur_contnt h2 {
+        margin-bottom: 15px;
+    }
+
+    .Featur_contnt .main_btn {
+        margin-top: 24px;
+    }
+
+    .Feature_Image img {
+        height: 180px;
+    }
+
+    .Stories_row {
+        margin-top: 30px;
+    }
+
+    .Review_box .review_starts ul li img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Review_box .post_icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Review_box .Review_Contnt p {
+        font-size: 14px;
+    }
+
+    .Review_box .Post_content p,
+    .users_inf_wpr .Info_cont p,
+    .announcement-bar__message span {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .Review_box .Post_on_wrp,
+    .users_inf_wpr {
+        gap: 10px;
+    }
+
+    .users_inf_wpr .info_imag {
+        height: 45px;
+        width: 45px;
+    }
+
+    .users_inf_wpr .Info_cont span {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 0;
+    }
+
+    .users_inf_wpr .Info_cont span::after {
+        height: 17px;
+        width: 17px;
+    }
+
+    .announcement-bar {
+        padding: 8px;
+    }
+
+    .Real_result {
+        padding: 40px 0;
+    }
+
+    .Real_headings p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .Foot_row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Foot_row .Foot_menu {
+        grid-column: span 2;
+    }
+
+    .Footer_sec {
+        padding: 40px 0 20px;
+    }
+
+    .Foot_heading {
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .Foot_menu ul li a {
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .Foot_Newsletter>form .Foot_News button {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .Optimz_foot {
+        margin-top: 40px;
+    }
+
+
+    .produc-sld-arrow {
+        .swiper-pagination-bullet {
+            width: 6px !important;
+            height: 6px !important;
+        }
+    }
+
+    .Stories_row .review_slider {
+        padding-bottom: 15px;
+    }
+
+    /* CDB PAGE CSS */
+
+    .template-cbd .Sided_sec.Small-Img .Sided_Image {
+        height: 300px;
+    }
+
+    .learnBtn {
+        gap: 12px;
+    }
+
+    .cont-with-bg-row {
+        padding: 30px 15px;
+        gap: 10px;
+        border-radius: 10px;
+    }
+
+    .cont-with-bg-row p {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 100%;
+    }
+
+    .cont-with-bg-row .main_btn {
+        margin-top: 10px;
+    }
+
+    .NoteSec {
+        padding: 40px 0;
+    }
+
+    .Foot_Newsletter {
+        max-width: 100%;
+    }
+
+    .template-cbd .Sided_content .sided_inner_dis ul {
+        gap: 10px;
+    }
+
+    .produc-sld-arrow:has(.product-next) {
+        position: static;
+
+        .product-next {
+            right: -35px;
+            padding-right: 2px;
+        }
+
+        .product-prev {
+            left: -35px;
+            padding-left: 2px;
+        }
+    }
+
+    .collections_row .CollectioN_Box {
+        grid-template-columns: 130px 1fr !important;
+        border-radius: 10px;
+        padding: 10px 10px 0;
+        gap: 10px;
+    }
+
+    .Foot_Newsletter>p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* CDB PAGE CSS */
+
+}

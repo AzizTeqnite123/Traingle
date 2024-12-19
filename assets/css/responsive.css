@@ -36,6 +36,35 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .header {
+        gap: 15px;
+    }
+
+    .header__inline-menu .list-menu--inline {
+        gap: 20px;
+    }
+
+    .header__icons {
+        gap: 15px;
+    }
+
+    .header__icons .cart {
+        margin-left: 20px;
+    }
+
+    .header__heading {
+        max-width: 180px;
+        height: 45px;
+    }
+
+    .foot-to-row {
+        gap: 30px;
+    }
+
+    .list-menu--inline li a {
+        font-size: 14px;
+        line-height: 18px;
+    }
 
     /* Home Page Css */
 
@@ -44,8 +73,71 @@
 @media only screen and (max-width : 1024px) {
     /* Home Page Css */
 
+    .announcement-bar__message span {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .announcement-bar_button .main_btn {
+        gap: 20px;
+    }
+
     .header__inline-menu .list-menu--inline {
         display: none;
+    }
+
+    .announcement-bar_button .main_btn a {
+        font-size: 13px;
+        line-height: 1.1;
+        padding: 9px 14px;
+    }
+
+    .header {
+        gap: 20px;
+    }
+
+    .foot-to-row {
+        grid-template-columns: 1.4fr 1fr 1fr;
+        gap: 20px;
+    }
+
+    .footLinksPr ul li a {
+        font-size: 16px;
+        line-height: 40px;
+    }
+
+    .footerTop {
+        padding: 80px 0 40px;
+    }
+
+    .Optiz_content {
+        padding: 0 30px 30px;
+    }
+
+    .sided_row {
+        gap: 20px;
+    }
+
+    .collections_row {
+        gap: 20px;
+    }
+
+    .Feature_row {
+        gap: 20px;
+    }
+
+    .Opti_row {
+        gap: 20px;
+    }
+
+    .foot-icons,
+    .ft-ic-lst-hldr {
+        margin-top: 30px;
+    }
+
+    .Heading_prnts .subTagText {
+        font-size: 20px;
+        line-height: 24px;
     }
 
     .Best_seller_sec:has(.swiper-slide:nth-child(4)) .produc-sld-arrow {
@@ -195,7 +287,7 @@
         padding: 80px 0;
     }
 
-    .Foot_row {
+    /* .Foot_row {
         gap: 20px;
     }
 
@@ -205,7 +297,7 @@
 
     .foot_Copy .copy_text span {
         line-height: 20px;
-    }
+    } */
 
     .Best_seller_sec .main_btn {
         margin-top: 50px;
@@ -213,6 +305,10 @@
 
     .Explor__sec .page-width>.main_btn {
         margin-top: 50px;
+    }
+
+    .Main_banner {
+        padding: 60px 0 0;
     }
 
     /* Home Page Css */
@@ -256,9 +352,27 @@
 
     /* Home Page Css */
 
+    .anns-bar-hldr {
+        flex-direction: column;
+    }
+
+    .announcement-bar_button {
+        margin: 0 auto;
+    }
+
+    .announcement-bar_button .main_btn,
+    .anns-bar-hldr {
+        gap: 15px;
+    }
+
     .main_btn a {
         font-size: 14px;
         padding: 14px 20px;
+        line-height: 14px;
+    }
+
+    .announcement-bar__message span {
+        font-size: 12px;
         line-height: 14px;
     }
 
@@ -266,12 +380,20 @@
         gap: 15px;
     }
 
-    .header__heading .header__heading-logo-wrapper {
-        max-width: 140px;
+    .announcement-bar_button .main_btn a {
+        font-size: 12px;
+        line-height: 1.1;
+        padding: 8px 13px;
+    }
+
+    .header__heading {
+        max-width: 159px;
+        height: 42px;
     }
 
     .Bannner__row {
         grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
     }
 
     .Banner_content {
@@ -285,6 +407,7 @@
     }
 
     .Banner_content {
+        padding-top: 20px;
         padding-bottom: 0px;
     }
 
@@ -293,7 +416,7 @@
     }
 
     .Banner_Images {
-        margin-top: -100px;
+        margin-top: -40px;
     }
 
     .Best_seller_sec {
@@ -523,6 +646,32 @@
         padding: 50px 0;
     }
 
+    .collections_row {
+        margin-top: 40px;
+    }
+
+    .Real_headings p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .foot-to-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footerTop {
+        padding: 60px 0 30px;
+    }
+
+    .foot-ic-list {
+        gap: 20px;
+    }
+
+    .Heading_prnts .subTagText {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
     /* Home Page Css */
 }
 
@@ -531,13 +680,45 @@
         padding: 0 15px;
     }
 
+    .announcement-bar_button .main_btn a {
+        font-size: 11px;
+        line-height: 1.2;
+        padding: 6px 10px;
+    }
+
+    .announcement-bar__message span {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .announcement-bar_button .main_btn,
+    .anns-bar-hldr {
+        gap: 10px;
+    }
+
+    .header__icons .cart .carts_Inner .buble-box {
+        font-size: 10px;
+        line-height: 5px;
+        height: 13px;
+        width: 13px;
+        top: 0;
+    }
+
+    .header__icons .cart {
+        margin-left: 0px;
+    }
+
     .header__icons .main_btn {
         display: none;
     }
 
     .Banner_content {
         padding-right: 15px;
-        padding-top: 60px;
+        padding-top: 20px;
+    }
+
+    .Main_banner {
+        padding: 30px 0 0;
     }
 
     .heading-h1 {
@@ -586,9 +767,6 @@
         gap: 10px;
     }
 
-    .header__heading .header__heading-logo-wrapper {
-        max-width: 119px;
-    }
 
     .Best_seller_sec {
         padding: 40px 15px;
@@ -784,8 +962,7 @@
     }
 
     .Review_box .Post_content p,
-    .users_inf_wpr .Info_cont p,
-    .announcement-bar__message span {
+    .users_inf_wpr .Info_cont p {
         font-size: 12px;
         margin-bottom: 0;
     }
@@ -812,7 +989,7 @@
     }
 
     .announcement-bar {
-        padding: 8px;
+        padding: 8px 0;
     }
 
     .Real_result {
@@ -868,10 +1045,87 @@
         padding-bottom: 15px;
     }
 
+    .foot-to-row {
+        grid-template-columns: 1fr;
+    }
+
+    .foot-ic-list {
+        gap: 10px;
+    }
+
+    .footLinksPr ul li a {
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+    .footNewsLtr h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    form.foot-news input {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 12px;
+    }
+
+    form.foot-news input::placeholder,
+    form.foot-news button {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .foot-bot-row p {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .header__icons {
+        gap: 10px;
+    }
+
+    .header__icons a {
+        height: 23px;
+        width: 23px;
+    }
+
+    .header__icons a img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .main-header {
+        padding: 12px 0;
+    }
+
+    .foot-icons,
+    .ft-ic-lst-hldr {
+        margin-top: 20px;
+    }
+
+    .header__icons .user {
+        display: none;
+    }
+
+    .header__heading {
+        max-width: 140px;
+        height: 40px;
+    }
+
+    .Heading_prnts .subTagText {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
     /* CDB PAGE CSS */
 
     .template-cbd .Sided_sec.Small-Img .Sided_Image {
         height: 300px;
+    }
+
+    .ft-ic-ds a {
+        font-size: 14px;
+        line-height: 18px;
     }
 
     .learnBtn {

@@ -18,7 +18,7 @@
         },
         769: {
           slidesPerView: 3,
-          spaceBetween: 30,
+          spaceBetween: 20,
         },
         1025: {
           slidesPerView: 4,
@@ -48,7 +48,7 @@
         },
         769: {
           slidesPerView: 3,
-          spaceBetween: 30,
+          spaceBetween: 20,
         },
         1025: {
           slidesPerView: 3,

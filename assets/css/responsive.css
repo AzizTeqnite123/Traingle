@@ -311,6 +311,11 @@
         padding: 60px 0 0;
     }
 
+    .cont-with-bg.fullBgClr .cont-with-bg-row {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
     /* Home Page Css */
 
     /* CBD PAGE CSS */
@@ -670,6 +675,11 @@
     .Heading_prnts .subTagText {
         font-size: 18px;
         line-height: 22px;
+    }
+
+    .cont-with-bg.fullBgClr .cont-with-bg-row {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     /* Home Page Css */
@@ -1117,6 +1127,11 @@
         line-height: 20px;
     }
 
+    .cont-with-bg.fullBgClr .cont-with-bg-row {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
     /* CDB PAGE CSS */
 
     .template-cbd .Sided_sec.Small-Img .Sided_Image {
@@ -1133,7 +1148,7 @@
     }
 
     .cont-with-bg-row {
-        padding: 30px 15px;
+        padding: 30px 0px;
         gap: 10px;
         border-radius: 10px;
     }

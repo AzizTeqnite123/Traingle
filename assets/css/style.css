@@ -424,22 +424,22 @@ section {
 }
 
 
-.page-site-deft .main_btn .Bg_btn {
+.main_btn .Bg_btn {
   color: #1257ab;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #fff;
 }
 
 .main_btn .Bg_btn {
-  color: #fff;
-  background: #1257ab;
-  border: 1px solid #1257ab;
+  color: #1257AB;
+  background: #fff;
+  border: 1px solid #fff;
 }
 
 .main_btn .Bg_btn:hover {
-  color: #1257ab;
-  background: #fff;
-  border: 1px solid #1257ab;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #fff;
 }
 
 .Bnner_points {
@@ -491,6 +491,22 @@ section {
 .Img_inner-ban {
   width: 100%;
   height: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.Img_inner-ban::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 82%;
+  z-index: -1;
+  background: #308AF8;
+  border-radius: 50%;
+  filter: blur(50px);
 }
 
 .Img_inner-ban img {
@@ -774,6 +790,7 @@ section {
 
 .colle-Img img {
   height: 100%;
+  width: 100%;
   object-fit: contain;
 }
 
@@ -1000,7 +1017,7 @@ section {
 }
 
 .stories_sec .Heading_prnts {
-  max-width: 570px;
+  max-width: 470px;
   margin: 0 auto;
 }
 
@@ -1472,12 +1489,34 @@ section {
   gap: 30px;
 }
 
+.learnBtn :nth-child(1) {
+  background: #1257AB;
+  color: #fff;
+  border-color: #1257AB;
+}
+
+.learnBtn :nth-child(1):hover {
+  background: transparent;
+  color: #1257AB;
+  border-color: #1257AB;
+}
+
+
 .template-cbd .Sided_content .sided_inner_dis ul {
   gap: 20px;
 }
 
 .template-cbd .Sided_sec.Small-Img .Sided_Image {
   height: 500px;
+}
+
+.cont-with-bg.fullBgClr {
+  background-color: #1257ab;
+}
+
+.cont-with-bg.fullBgClr .cont-with-bg-row {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .cont-with-bg-row {
@@ -1855,10 +1894,6 @@ form.foot-news button:hover {
   display: block;
 }
 
-.page-site-deft .header__icons .cart .carts_Inner .buble-box {
-  background: #000;
-}
-
 .header__icons .cart .carts_Inner .buble-box {
   position: absolute;
   top: -3px;
@@ -1869,7 +1904,7 @@ form.foot-news button:hover {
   font-weight: 600;
   line-height: 7px;
   z-index: 1;
-  background: #1257ab;
+  background: #000;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -1890,22 +1925,9 @@ form.foot-news button:hover {
   transition: all ease-in-out .3s;
 }
 
-.header__icons a:hover{
+.header__icons a:hover {
   background: #1257AB;
   transform: translateY(-1px);
-}
-
-.header__icons a.user::after {
-  content: '';
-  position: absolute;
-  right: -20px;
-  top: 10px;
-  background-image: url(../images/downArrow.svg);
-  height: 12px;
-  width: 12px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .header__icons a img {
@@ -1916,7 +1938,7 @@ form.foot-news button:hover {
 }
 
 .header__icons .cart {
-  margin-left: 20px;
+  margin-left: 0px !important;
 }
 
 .header__icons a.cart {

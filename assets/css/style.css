@@ -1012,8 +1012,12 @@ section {
 /* Reviews */
 .stories_sec {
   position: relative;
-  padding: 250px 0 100px;
+  padding: 100px 0 100px;
   margin-top: -9.4rem;
+}
+
+.template-home .stories_sec {
+  padding: 250px 0 250px;
 }
 
 .stories_sec .Heading_prnts {
@@ -1512,11 +1516,16 @@ section {
 
 .cont-with-bg.fullBgClr {
   background-color: #1257ab;
+  margin: 0 !important;
 }
 
 .cont-with-bg.fullBgClr .cont-with-bg-row {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.template-home .cont-with-bg {
+  margin-top: -9.5rem;
 }
 
 .cont-with-bg-row {
